@@ -148,3 +148,60 @@
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
 }
+/* Main second-section styles ENDS*/
+
+/* Main THIRD-section styles STARTS*/
+/* .star-image-container {
+  display: flex;
+}
+
+.star-image-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.review-card {
+  display: flex;
+}
+.card-reviewr-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card-reviewr-name-R p {
+  margin-top: -60px;
+}
+.card-reviewr-name img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+} */
+/* Main THIRD-section styles ENDS*/
+
+/* Main Fourth-section styles STARTS*/
+.fourth-container {
+  width: 1140px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 1);
+}
+.container-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container-description {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.container-button {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+}
+/* Main Fourth-section styles ENDS*/
