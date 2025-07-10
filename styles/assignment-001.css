@@ -14,8 +14,12 @@
 }
 /* Shared styles start */
 
-.primary-color {
+.primary-bg {
   background-color: rgba(78, 71, 255, 1);
+}
+
+.primary-title-text-color {
+  color: #252432;
 }
 /* Shared styles ends */
 .header {
@@ -70,3 +74,41 @@
 }
 
 /* Banner styles ends */
+
+/* Main first-section styles */
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 116px;
+}
+.section-left-side {
+  max-width: 48%;
+}
+.section-image-right-side {
+  max-width: 48%;
+}
+.section-left-side .section-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-left-side .section-description {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2524328c;
+  margin-bottom: 30px;
+}
+.section-left-side button {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+}
+
+.section-image-right-side img {
+  border-radius: 48px;
+}
