@@ -179,10 +179,15 @@
 /* Main THIRD-section styles ENDS*/
 
 /* Main Fourth-section styles STARTS*/
-.fourth-container {
+
+.fourth-container-contents {
   width: 1140px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 100px;
+  padding: 70px 150px;
+  border-radius: 14px;
 }
 .container-title {
   color: rgba(0, 0, 0, 1);
@@ -203,5 +208,13 @@
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
+}
+.fourth-container-image {
+  border-radius: 48px;
+}
+.fourth-container-image,
+.container-button {
+  display: block;
+  margin: 0 auto;
 }
 /* Main Fourth-section styles ENDS*/
