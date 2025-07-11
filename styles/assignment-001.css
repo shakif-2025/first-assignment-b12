@@ -294,6 +294,15 @@ form label {
   color: #000000;
   line-height: 120%;
 }
+.input-tag {
+  margin-bottom: 20px;
+}
+form input {
+  padding: 20px 32px;
+  width: 497px;
+  height: 40px;
+}
+
 .fifth-container-title {
   font-size: 97px;
   font-weight: bold;
