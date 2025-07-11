@@ -30,7 +30,7 @@ body {
 }
 .input-tag {
   width: 497px;
-  height: 70px;
+  /* height: 70px; */
   padding: 3px 15px;
   border-radius: 10px;
   border: 1px solid rgba(214, 221, 237, 1);
@@ -57,6 +57,7 @@ body {
 .nav_bar h1 {
   font-size: 34px;
   color: rgba(78, 71, 255, 1);
+  line-height: 150%;
   margin-top: 50px;
   margin-left: 250px;
 }
@@ -64,19 +65,21 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  line-height: 150%;
   text-decoration: none;
   margin-right: 250px;
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
 }
-
+.main {
+  width: 1140px;
+  margin: 0 auto;
+}
 /* navbar styles ends */
 
 /* Banner styles starts */
 .banner {
-  /* width: 1140px;
-  margin: 0 auto; */
   text-align: center;
   margin: 158px 0 200px 0;
 }
@@ -84,11 +87,13 @@ body {
   font-size: 65px;
   font-weight: bold;
   color: #252432;
+  line-height: auto;
 }
 .banner-btn {
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
+  line-height: 150%;
   padding: 12px 36px;
   border-radius: 10px;
   margin-bottom: 200px;
@@ -113,18 +118,21 @@ body {
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 30px;
+  line-height: auto;
 }
 
 .section-left-side .section-description {
   font-size: 24px;
   font-weight: 600;
   color: #2524328c;
+  line-height: 30px;
   margin-bottom: 30px;
 }
 .section-left-side button {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  line-height: 150%;
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
@@ -133,6 +141,7 @@ body {
 .section-image-right-side img {
   border-radius: 48px;
   width: 400px;
+  opacity: 100%;
 }
 
 /* Main second-section styles */
@@ -148,6 +157,7 @@ body {
   font-size: 38px;
   font-weight: bold;
   text-align: center;
+  line-height: auto;
 }
 .second-section-counter {
   display: flex;
@@ -158,11 +168,13 @@ body {
 .counter-number {
   font-size: 80px;
   font-weight: bold;
+  line-height: auto;
 }
 
 .counter-sub-title {
   margin-top: -50px;
   font-size: 20px;
+  line-height: auto;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -171,8 +183,6 @@ body {
 /* Main THIRD-section styles STARTS*/
 .third-section {
   margin-top: 150px;
-  /* max-width: 1140px;
-  margin: 0 auto; */
 }
 .section-container {
   display: flex;
@@ -202,6 +212,7 @@ body {
   width: 20px;
   height: 20px;
   padding: 24px 0;
+  opacity: 100%;
 }
 .card-footer {
   display: flex;
@@ -211,6 +222,7 @@ body {
 .card-footer img {
   width: 40px;
   height: 40px;
+  opacity: 100%;
 }
 .footer-date {
   margin-top: -15px;
@@ -234,6 +246,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
+  line-height: 120%;
 }
 .container-description {
   color: rgba(0, 0, 0, 0.3);
@@ -245,13 +258,17 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  line-height: 150%;
   padding: 12px 36px;
+  margin-bottom: 40px;
   border-radius: 10px;
   border: none;
 }
 .fourth-container-image {
   width: 840px;
+  height: 360px;
   border-radius: 48px;
+  opacity: 100%;
 }
 .fourth-container-image,
 .container-button {
@@ -275,14 +292,19 @@ form label {
   font-size: 18px;
   font-weight: 600;
   color: #000000;
+  line-height: 120%;
 }
 .fifth-container-title {
   font-size: 97px;
   font-weight: bold;
+  line-height: 120%;
 }
-.margin-bottom {
+form textarea {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* .margin-bottom {
   margin-bottom: 20px;
-}
+} */
 .form-btn {
   width: 530px;
   text-align: center;
@@ -290,14 +312,12 @@ form label {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 20px;
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
 }
 
-form textarea {
-  margin-bottom: 10px;
-}
 /* Main fifth-section styles ENDS*/
 
 /* Footer styles starts */
