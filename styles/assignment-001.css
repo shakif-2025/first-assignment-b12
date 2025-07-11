@@ -45,6 +45,7 @@ body {
   background: url("../Assets/Hero-bg.png");
   background-position: cover;
 }
+
 /* navbar styles starts  */
 .nav_bar {
   display: flex;
@@ -74,6 +75,8 @@ body {
 
 /* Banner styles starts */
 .banner {
+  /* width: 1140px;
+  margin: 0 auto; */
   text-align: center;
   margin: 158px 0 200px 0;
 }
@@ -103,7 +106,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.section-left-side {
+  width: 510px;
+}
 .section-left-side .section-title {
   font-size: 42px;
   font-weight: bold;
@@ -127,9 +132,11 @@ body {
 
 .section-image-right-side img {
   border-radius: 48px;
+  width: 400px;
 }
 
 /* Main second-section styles */
+
 .second-section {
   width: 1140px;
   background-color: rgba(78, 71, 255, 0.1);
@@ -162,31 +169,52 @@ body {
 /* Main second-section styles ENDS*/
 
 /* Main THIRD-section styles STARTS*/
-/* .star-image-container {
-  display: flex;
+.third-section {
+  margin-top: 150px;
+  /* max-width: 1140px;
+  margin: 0 auto; */
 }
-
-.star-image-container img {
+.section-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.card-container {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+}
+.container-title {
+  text-align: center;
+}
+.card-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 1);
+}
+.footer-date {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(179, 179, 179, 1);
+}
+.card-container img {
   width: 20px;
   height: 20px;
+  padding: 24px 0;
 }
-
-.review-card {
-  display: flex;
-}
-.card-reviewr-name {
+.card-footer {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
-.card-reviewr-name-R p {
-  margin-top: -60px;
+.card-footer img {
+  width: 40px;
+  height: 40px;
 }
-.card-reviewr-name img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-} */
+.footer-date {
+  margin-top: -15px;
+}
 /* Main THIRD-section styles ENDS*/
 
 /* Main Fourth-section styles STARTS*/
